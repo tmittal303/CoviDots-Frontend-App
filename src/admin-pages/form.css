@@ -1,0 +1,171 @@
+
+
+.form-element{
+    align-content: center;
+    margin: 10%;
+}
+.form-text{
+ margin-left: 10em;
+ padding-top: 2em;
+ width: 20em;
+ 
+}
+.form-text1{
+    margin-left: 27em;
+    padding-top: 2em;
+    width: 20em;
+   }
+
+   .form-text2{
+    margin-left: 31em;
+    padding-top: 2em;
+    width: 20em;
+   }
+   .form-text3{
+    margin-left: 29em;
+    padding-top: 2em;
+    width: 20em;
+   }
+   .form-text4{
+    margin-left: 29em;
+    padding-top: 2em;
+    width: 20em;
+   }
+   .form-text5{
+    margin-left: 26.5em;
+    padding-top: 2em;
+    width: 20em;
+   }
+   .form-text6{
+    margin-left: 7em;
+    padding-top: 2em;
+    width: 20em;
+    
+   }
+   .form-text7{
+    margin-left: 17em;
+    padding-top: 2em;
+    width: 20em;
+   }
+   .form-text8{
+    margin-left: 18em;
+    padding-top: 2em;
+    width: 20em;
+    
+   }
+   .form-text9{
+    margin-left: 13em;
+    padding-top: 2em;
+    width: 20em;
+   }
+   .form-text01{
+    margin-left: 25em;
+    padding-top: 2em;
+    width: 20em;
+   }
+   .form-text02{
+    margin-left: 17em;
+    padding-top: 2em;
+    width: 20em;
+    
+   }
+   .form-text03{
+    margin-left: 17em;
+    padding-top: 2em;
+    width: 20em;
+   }
+   .form-text04{
+    margin-left: 13em;
+    padding-top: 2em;
+    width: 20em;
+   }
+   .form-text05{
+    margin-left: 18em;
+    padding-top: 2em;
+    width: 20em;
+   }
+   .form-text06{
+    margin-left: 20em;
+    padding-top: 2em;
+    width: 20em;
+    
+   }
+   .form-text07{
+    margin-left: 9em;
+    padding-top: 2em;
+    width: 20em;
+   }
+   .form-checkbox{
+       margin-left: 37em;
+   }
+
+   .addlocationbutton, .updateVaccineinfoBtn , .generateReportBtn, .addAdminBtn{
+    margin-left: 45em;
+    border-radius: 12px;
+    color: white;
+    font-size: medium;
+    background-color: #37733A;
+    width: 10em;
+    height: 4em;
+   }
+
+   .dropdownlocation{
+    margin-left: 5em;
+    width: 10em;
+   }
+   .dropdownvaccine{
+    margin-left: 9em;
+    width: 10em;
+   }
+   .selectDateform{
+    margin-left: 30em;
+    width: 10em;
+   }
+   .timingFrom{
+    margin-left: 15em;
+   }
+   .radioLocations{
+       margin-left: 35em;
+   }
+   .radioEmployee{
+margin-left: 20em;
+   }
+   .dropdownlocationReport{
+       margin-left: 9.5em;
+   }
+   .reportFrom{
+       margin-left: 29.7em;
+   }
+   .reportTo{
+       margin-left: 31.3em;
+   }
+
+   input:invalid {
+    border: 2px dashed red;
+  }
+  input:focus:invalid {
+    outline: none;
+  }
+
+  .vaccineDetails table{
+    font-family: Verdana;
+    font-size: 16px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.vaccineDetails  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+.vaccineDetails   th {
+    background-color: #BFBFBF;
+    font-size: 18px;
+    height: 40px;
+  }
+
+  .fromTime{
+      width: 10%;
+  }

@@ -1,0 +1,550 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Header */
+
+header {
+  height: 120px;
+  background-color: #37733A;
+}
+
+header img {
+  height: 115px;
+  margin: 5px;
+  margin-left: 50px;
+}
+
+header button{
+  background-color: #FFFFFF;
+  color: #37733A;
+  cursor: pointer;
+  font-family: Verdana;
+  font-weight: bold;
+  width: 100px;
+  margin-left: 1000px;
+}
+
+/* Footer */
+
+footer {
+  bottom: 0;
+  padding-top: 10px;
+  background-color: #37733A;
+  display: inline-block;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+}
+
+footer img {
+  height: 20px;
+  display: inline-block;
+  padding: 5px;
+  padding-top: 5px;
+}
+
+footer h4 {
+  color: white;
+  display: inline-block;
+  font-family: Verdana;
+  font-size: small;
+  margin-left: 500px;
+}
+
+footer p {
+  color: white;
+  display: inline-block;
+  font-family: Verdana;
+  font-size: small;
+  text-align: left;
+  margin-left: 60px;
+}
+
+/* Page Not Found */
+
+.notfound-404 h1 {
+  font-family: Verdana,sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  font-size: 186px;
+  font-weight: 200;
+  margin: 0;
+  background: linear-gradient(
+130deg
+,#23ee67, #37733A);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-transform: uppercase;
+}
+
+.notfound-404 h2 {
+  font-family: Verdana,sans-serif;
+  font-size: 33px;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-left: 50px;
+  margin-bottom: 400px;
+  text-decoration: underline;
+  color: #37733A;
+}
+
+.notfound-404 p {
+  font-family: Verdana,sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 0;
+  margin-bottom: 25px;
+  margin-left: 180px;
+}
+
+.notfound-404 a {
+  font-family: Verdana,sans-serif;
+  color: #37733A;
+  text-decoration: none;
+  border-bottom: 1px dashed #37733A;
+  border-radius: 2px;
+}
+
+.locationContainer{
+  
+  padding-bottom: 20px;
+}
+/* locationpage*/
+.border1{
+  border-style: ridge;
+  border-radius: 10px;
+  width: 70%;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+  
+ 
+}
+
+.border1 button[type=submit]{
+  background-color: #37733A;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Verdana;
+  height: 40px;
+  width: 150px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-top: 35px;  
+
+}  
+
+/*Select the provider page*/
+.providerContainer{
+  border-style: ridge;
+  border-radius: 10px;
+  width: 70%;
+  height: max-content;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: grid;
+ 
+  
+}
+
+.providerContainer button[type=submit]{
+  background-color: #37733A;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Verdana;
+  height: 40px;
+  width: 400px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-left: 250px;
+  margin-top: 35px;  
+  
+
+}  
+
+button{
+  background-color: #37733A;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Verdana;
+  width: 80px;
+}
+
+
+/* Login Page */
+
+.loginTitle {
+  background-color: #37733A;
+  width: 220px;
+  display: flex;
+  color: #FFFFFF;
+  font-weight: bold;
+  height: 35px;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+  margin-top: 30px;
+  font-family: Verdana;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.loginCreateAccount {
+  background-color: #BFBFBF;
+  margin-left: 350px;
+  height: 70px;
+  display: flex;
+  margin-top: 20px;
+  width: 800px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #000000;
+  border-style: solid;
+  font-family: Verdana;
+}
+
+.loginContainer {
+  padding: 16px;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 20px;
+}
+
+.loginContainer label {
+  font-size: 18px;
+  padding-left: 80px;
+}
+
+.loginContainer input {
+  border-radius: 5px;
+  text-align: center;
+  width: 250px;
+  height: 30px;
+  margin-left: 100px;
+  position: sticky;
+  font-size: 16px;
+}
+
+.loginContainer input[type=email] {
+  margin-left: 130px;
+  margin-top: 40px;
+}
+
+.loginContainer button[type=submit] {
+  background-color: #37733A;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Verdana;
+  height: 40px;
+  width: 150px;
+  font-size: 18px;
+  border-radius: 8px;
+  margin-left: 250px;
+  margin-top: 35px;
+}
+
+.loginContainer p {
+  cursor: pointer;
+  font-family: Verdana;
+  font-size: 16px;
+  margin-left: 260px;
+}
+
+.loginContainer button[type=goback] {
+  background-color: #BFBFBF;
+  color: #000000;
+  cursor: pointer;
+  font-family: Verdana;
+  height: 40px;
+  width: 120px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.loginContainer button[type=cancel] {
+  background-color: #BFBFBF;
+  color: #000000;
+  cursor: pointer;
+  font-family: Verdana;
+  height: 40px;
+  width: 120px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.roleradiobutton{
+  padding-left: 25px;
+  font-size: 22px;
+  font-family: Verdana;
+  transform:scale(0.7);
+}
+
+/* Register Page */
+
+.registerTitle {
+  background-color: #37733A;
+  padding-top: 10px;
+  width: 220px;
+  display: flex;
+  color: #FFFFFF;
+  font-weight: bold;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+  margin-top: 30px;
+  font-family: Verdana;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.registerSignIn {
+  background-color: #BFBFBF;
+  margin-left: 350px;
+  height: 70px;
+  display: flex;
+  margin-top: 20px;
+  width: 800px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #000000;
+  border-style: solid;
+  font-family: Verdana;
+}
+
+.registerContainer {
+  width: 100%;
+  margin-left: 350px;
+  margin-top: 25px;
+}
+
+.registerContainer label {
+  font-size: 16px;
+  padding-left: 30px;
+}
+
+.registerContainer input {
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+  height: 30px;
+  margin-left: 50px;
+  position: sticky;
+  font-size: 16px;
+}
+
+.registerContainer input[type=date] {
+  margin-left: 35px;
+}
+
+.registerContainer input[type=email] {
+  margin-left: 130px;
+}
+
+.registerContainer input[name=psw] {
+  margin-left: 105px;
+}
+
+.registerContainer input[type=checkbox] {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.registerContainer label[type=terms] {
+  margin-left: -20px;
+}
+
+.registerContainer button[type=goback] {
+  background-color: #BFBFBF;
+  color: #000000;
+  cursor: pointer;
+  font-family: Verdana;
+  height: 40px;
+  width: 120px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.registerContainer button[type=cancel] {
+  background-color: #BFBFBF;
+  color: #000000;
+  cursor: pointer;
+  font-family: Verdana;
+  height: 40px;
+  width: 120px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.registerContainer button[type=submit] {
+  background-color: #37733A;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Verdana;
+  height: 40px;
+  width: 120px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 400px;
+}
+
+/* User My Account Page */
+
+.userMyAccount {
+  background-color: #37733A;
+  width: 220px;
+  padding-top: 10px;
+  display: flex;
+  color: #FFFFFF;
+  font-weight: bold;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+  margin-top: 30px;
+  border-radius: 5px;
+  font-family: Verdana;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.userMyAccountContainer{
+  width: 97%;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-style: ridge;
+}
+
+.personalInfo p, .upcomingBookingDetails p, .doseTaken p{
+  margin-left: 40px;
+  font-size: 16px;
+  font-family: Verdana;
+  font-weight: bold;
+  text-decoration-line: underline;
+} 
+
+.border{
+  border-style: ridge;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.border label{
+  margin-left: 40px;
+  font-size: 14px;
+  font-family: Verdana;
+}
+
+.border input{
+  margin-left: 30px;
+  font-size: 14px;
+  font-family: Verdana;
+  border-radius: 5px;
+  text-align: center;
+  width: 250px;
+  height: 20px;
+  position: sticky;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.border button[type=cancelbooking]{
+  background-color: #BFBFBF;
+  color: #000000;
+  cursor: pointer;
+  font-family: Verdana;
+  height: 40px;
+  width: 150px;
+  font-size: 14px;
+  border-radius: 8px;
+  margin-left: 100px;
+  margin-bottom: 5px;
+}
+
+.border textarea{
+  margin-left: 30px;
+  font-size: 14px;
+  font-family: Verdana;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.doseTaken .border h4{
+  margin-left: 30px;
+  font-size: 14px;
+  font-family: Verdana;
+}
+
+.booknow-button{
+  background-color: #37733A;
+  width: 150px;
+ }
